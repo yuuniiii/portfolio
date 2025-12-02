@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+@import "tailwindcss";
+
+/* TAILWIND V4 TOKENS */
+@theme inline {
+  --color-background: #ffffff;
+  --color-foreground: #171717;
+  --font-sans: "Inter", system-ui, sans-serif;
+
+  --text-h1: 3rem;
+  --text-h2: 3rem;
+  --text-h3: 2rem;
+  --text-body: 1.25rem;
+}
+
+/* GLOBAL BROWSER STYLES */
+body {
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-sans);
+}
+
